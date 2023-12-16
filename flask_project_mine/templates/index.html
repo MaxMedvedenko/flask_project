@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block head %}
+	<title>Це заголовок основної сторінки</title>
+{% endblock %}
+
+
+
+
+{% block body %}
+    {% if data == 0 %}
+        {% include 'page1.html' %}    
+    {% elif data == 1 %}
+        {% include 'page2.html' %}
+    {% elif data == 2 %}
+        {% include 'page3.html' %}
+    {% elif data == 3 %}
+        {% include 'page4.html' %}
+    {% elif data == 4 %}
+        {% include 'page5.html' %}
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	{% block head %}
+	{% endblock %}
+
+</head>
+<body>
+
+	<header>
+		<div class="head">
+			<a href="/" class="navigate">Головна сторінка</a>
+			<a href="/new2" class="navigate">Про Minecraft</a>
+			<a href="/new3" class="navigate">Про Mojang</a>
+			<a href="/new4" class="navigate">Про батька гри</a>
+			<a href="/new5" class="navigate">XD</a>
+		</div>
+	</header>
+
+<section class="main">
+	{% block body %}
+	{% endblock %}
+</section>
+
+
+	<footer>
+		<div class="footer">
+			<h1></h1>
+		</div>
+	</footer>
+</body>
+</html>
