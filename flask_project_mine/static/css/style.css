@@ -101,3 +101,17 @@ footer {
 .main {
     min-height: calc(100vh - 60px - 90px);
 }
+
+/* All connected with session  */
+
+/* views counter */
+.views_counter {
+    display: flex;
+    justify-content: left;
+}
+
+/* likes counter */
+.likes_counter {
+    display: flex;
+    justify-content: left;
+}
